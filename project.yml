@@ -1,0 +1,19 @@
+parameters: {}
+environment: {}
+packages:
+    - name: spaces
+      shared: false
+      environment: {}
+      parameters: {}
+      annotations: {}
+      functions:
+        - name: index
+          binary: false
+          main: ""
+          runtime: python:default
+          web: true
+          webSecure: false
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
