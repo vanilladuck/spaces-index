@@ -9,10 +9,8 @@ packages:
       functions:
         - name: index
           binary: false
-          main: ""
           runtime: python:default
           web: true
-          webSecure: true
           parameters: {}
           environment: {}
           annotations: {}
